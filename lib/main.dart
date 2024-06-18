@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'dart:developer' as developer;
 
 void main() {
   runApp(const MyApp());
@@ -20,12 +19,12 @@ class MyApp extends StatelessWidget {
               padding: const EdgeInsets.all(50),
               color : Colors.transparent , 
               child : Container(
-                padding: EdgeInsets.all(10),
+                padding: const EdgeInsets.all(10),
                 decoration: BoxDecoration(
                   color: Colors.blue,
                   borderRadius: BorderRadius.circular(20), // Rounded edges
                 ),
-                child : ResponsiveLayout()
+                child : const ResponsiveLayout()
                 ),
             ),
           ),
@@ -34,15 +33,17 @@ class MyApp extends StatelessWidget {
 }
 
 class CarTab extends StatelessWidget {
+  const CarTab({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
         children: List.generate(10, (index) {
           return Card(
-            margin: EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             child: ListTile(
-              leading: Icon(Icons.directions_car),
+              leading: const Icon(Icons.directions_car),
               title: Text('Car Item $index'),
               subtitle: Text('Details about car item $index'),
             ),
@@ -54,15 +55,17 @@ class CarTab extends StatelessWidget {
 }
 
 class TransitTab extends StatelessWidget {
+  const TransitTab({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
         children: List.generate(10, (index) {
           return Card(
-            margin: EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             child: ListTile(
-              leading: Icon(Icons.directions_transit),
+              leading: const Icon(Icons.directions_transit),
               title: Text('Transit Item $index'),
               subtitle: Text('Details about transit item $index'),
             ),
@@ -74,15 +77,17 @@ class TransitTab extends StatelessWidget {
 }
 
 class BikeTab extends StatelessWidget {
+  const BikeTab({super.key});
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Column(
         children: List.generate(10, (index) {
           return Card(
-            margin: EdgeInsets.all(10),
+            margin: const EdgeInsets.all(10),
             child: ListTile(
-              leading: Icon(Icons.directions_bike),
+              leading: const Icon(Icons.directions_bike),
               title: Text('Bike Item $index'),
               subtitle: Text('Details about bike item $index'),
             ),
@@ -94,6 +99,8 @@ class BikeTab extends StatelessWidget {
 }
 
 class ResponsiveLayout extends StatelessWidget {
+  const ResponsiveLayout({super.key});
+
   @override
   Widget build(BuildContext context) {
     double screenWidth = MediaQuery.of(context).size.width;
@@ -134,7 +141,7 @@ class ResponsiveLayout extends StatelessWidget {
                   ],
                 ),
               ),
-              Expanded(
+              const Expanded(
                 child: TabBarView(
                   children: [
                     CarTab(),
