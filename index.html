@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Foo Hou Lin — Senior Software Developer</title>
+<meta name="description" content="Resume of Foo Hou Lin, Senior Software Developer specializing in Flutter, Angular, ASP.NET and C#." />
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        fontFamily: {
+          display: ['"Space Grotesk"', 'sans-serif'],
+          body: ['"Inter"', 'sans-serif'],
+          mono: ['"JetBrains Mono"', 'monospace'],
+        },
+        colors: {
+          ink: '#0b0f19',
+          paper: '#f7f5f0',
+          accent: '#7c5cff',
+          accent2: '#ff6b6b',
+          accent3: '#22d3a8',
+        },
+      },
+    },
+  }
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<style>
+  body { font-family: 'Inter', sans-serif; }
+  .font-display { font-family: 'Space Grotesk', sans-serif; }
+  .font-mono { font-family: 'JetBrains Mono', monospace; }
+  ::selection { background: #7c5cff; color: #fff; }
+  .grid-fade {
+    background-image:
+      linear-gradient(to right, rgba(0,0,0,0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+  @media print {
+    .no-print { display: none !important; }
+    body { background: white !important; }
+    .print-shadow-off { box-shadow: none !important; }
+  }
+</style>
+</head>
+<body class="bg-paper text-ink antialiased">
+
+  <!-- Print button -->
+  <button onclick="window.print()" class="no-print fixed bottom-6 right-6 z-50 rounded-full bg-ink text-paper px-5 py-3 text-sm font-medium shadow-lg hover:bg-accent transition-colors flex items-center gap-2">
+    <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M6.72 13.829c-.24.03-.48.062-.72.096m.72-.096a42.415 42.415 0 0110.56 0m-10.56 0L6.34 18m10.94-4.171c.24.03.48.062.72.096m-.72-.096L17.66 18m0 0l.229 2.523a1.125 1.125 0 01-1.12 1.227H7.231c-.662 0-1.18-.568-1.12-1.227L6.34 18m11.32 0a2.25 2.25 0 010 4.5H6.34a2.25 2.25 0 010-4.5m11.32 0V6.75A2.25 2.25 0 0015.4 4.5H8.6A2.25 2.25 0 006.34 6.75v11.25" />
+    </svg>
+    Print / PDF
+  </button>
+
+  <div class="max-w-4xl mx-auto px-6 sm:px-10 py-14">
+
+    <!-- Header -->
+    <header class="relative grid-fade rounded-3xl border border-ink/10 p-8 sm:p-10 mb-8 overflow-hidden bg-white/60">
+      <div class="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-accent/20 blur-2xl"></div>
+      <div class="absolute -bottom-10 -left-10 w-40 h-40 rounded-full bg-accent3/20 blur-2xl"></div>
+      <div class="relative flex flex-col sm:flex-row sm:items-end sm:justify-between gap-6">
+        <div>
+          <p class="font-mono text-xs tracking-widest text-accent uppercase mb-2">// Resume.render()</p>
+          <h1 class="font-display text-4xl sm:text-5xl font-bold leading-tight">Foo Hou Lin</h1>
+          <p class="mt-2 text-lg text-ink/70 font-medium">Senior Software Developer</p>
+        </div>
+        <div class="font-mono text-sm text-ink/70 space-y-1 sm:text-right">
+          <p>
+            <a href="https://github.com/hhoulin94" class="hover:text-accent underline decoration-accent/40">github.com/hhoulin94</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="relative mt-6 flex flex-wrap gap-2">
+        <span class="px-3 py-1 rounded-full bg-ink text-paper text-xs font-mono">Flutter</span>
+        <span class="px-3 py-1 rounded-full bg-accent text-white text-xs font-mono">Angular</span>
+        <span class="px-3 py-1 rounded-full bg-accent3 text-ink text-xs font-mono">ASP.NET / C#</span>
+        <span class="px-3 py-1 rounded-full bg-accent2 text-white text-xs font-mono">Banking Systems</span>
+      </div>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+      <!-- Main column -->
+      <main class="lg:col-span-2 space-y-10">
+
+        <!-- Summary -->
+        <section>
+          <h2 class="font-display text-xl font-semibold mb-3 flex items-center gap-2">
+            <span class="w-6 h-px bg-accent"></span> Summary
+          </h2>
+          <p class="text-ink/80 leading-relaxed">
+            Senior Software Developer with 9+ years of experience in mobile and full-stack
+            application development using Flutter, Angular, ASP.NET, and C#. Experienced in
+            banking applications, enterprise systems, API integration, and cross-functional
+            collaboration. Strong problem-solving skills with experience in maintaining and
+            supporting large-scale applications.
+          </p>
+        </section>
+
+        <!-- Experience -->
+        <section>
+          <h2 class="font-display text-xl font-semibold mb-4 flex items-center gap-2">
+            <span class="w-6 h-px bg-accent"></span> Experience
+          </h2>
+          <div class="space-y-6">
+
+            <div class="relative pl-6 border-l-2 border-ink/10">
+              <div class="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent"></div>
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+                <h3 class="font-semibold">Senior Software Developer — Interbase Resources Sdn Bhd</h3>
+                <span class="font-mono text-xs text-ink/50">Apr 2023 – Present</span>
+              </div>
+              <p class="text-xs text-ink/50 mt-0.5">Selangor</p>
+              <ul class="text-sm text-ink/70 mt-2 space-y-1 list-disc list-inside">
+                <li>Develop, maintain, and support enterprise web and mobile applications.</li>
+                <li>Design and develop backend services, RESTful APIs, and system integrations.</li>
+                <li>Optimize SQL queries and databases to improve application performance.</li>
+                <li>Generate reports and implement business requirements for enterprise systems.</li>
+                <li>Contribute to frontend web development (Angular) and mobile application development (Flutter) when required.</li>
+                <li>Troubleshoot production issues and provide technical support for business-critical applications.</li>
+              </ul>
+            </div>
+
+            <div class="relative pl-6 border-l-2 border-ink/10">
+              <div class="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent3"></div>
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+                <h3 class="font-semibold">Mobile Application Developer — Interbase Resources Sdn Bhd</h3>
+                <span class="font-mono text-xs text-ink/50">Jun 2018 – Apr 2023</span>
+              </div>
+              <p class="text-xs text-ink/50 mt-0.5">Selangor</p>
+              <ul class="text-sm text-ink/70 mt-2 space-y-1 list-disc list-inside">
+                <li>Developed and maintained cross-platform mobile applications using Flutter.</li>
+                <li>Integrated mobile applications with backend APIs and third-party services.</li>
+                <li>Fixed production issues and enhanced application stability and performance.</li>
+                <li>Implemented new features based on business and client requirements.</li>
+                <li>Collaborated with QA, designers, and backend developers to deliver software releases.</li>
+              </ul>
+            </div>
+
+            <div class="relative pl-6 border-l-2 border-ink/10">
+              <div class="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent2"></div>
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+                <h3 class="font-semibold">Java Developer — Klikx Solution Sdn Bhd</h3>
+                <span class="font-mono text-xs text-ink/50">Jun 2017 – May 2018</span>
+              </div>
+              <p class="text-xs text-ink/50 mt-0.5">Selangor</p>
+              <ul class="text-sm text-ink/70 mt-2 space-y-1 list-disc list-inside">
+                <li>Developed Java desktop and game applications.</li>
+                <li>Implemented new features and maintained existing systems.</li>
+                <li>Performed debugging, testing, and performance optimization.</li>
+                <li>Worked closely with team members throughout the software development lifecycle.</li>
+              </ul>
+            </div>
+
+            <div class="relative pl-6 border-l-2 border-ink/10">
+              <div class="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent"></div>
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+                <h3 class="font-semibold">Java Consultant — dJava Factory Sdn Bhd</h3>
+                <span class="font-mono text-xs text-ink/50">Mar 2017 – May 2017</span>
+              </div>
+              <p class="text-xs text-ink/50 mt-0.5">Selangor</p>
+              <ul class="text-sm text-ink/70 mt-2 space-y-1 list-disc list-inside">
+                <li>Developed Java web applications for client projects.</li>
+                <li>Implemented frontend webpages and backend business logic.</li>
+                <li>Participated in requirement analysis, testing, and deployment activities.</li>
+              </ul>
+            </div>
+
+            <div class="relative pl-6 border-l-2 border-ink/10">
+              <div class="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent3"></div>
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+                <h3 class="font-semibold">Mobile Developer — Silverlake Digital Economy Sdn Bhd</h3>
+                <span class="font-mono text-xs text-ink/50">Aug 2016 – Feb 2017</span>
+              </div>
+              <p class="text-xs text-ink/50 mt-0.5">Selangor</p>
+              <ul class="text-sm text-ink/70 mt-2 space-y-1 list-disc list-inside">
+                <li>Developed and maintained banking mobile applications.</li>
+                <li>Integrated mobile applications with backend APIs.</li>
+                <li>Resolved production defects and performed application maintenance.</li>
+                <li>Implemented new features and enhancements based on business requirements.</li>
+              </ul>
+            </div>
+
+            <div class="relative pl-6 border-l-2 border-ink/10">
+              <div class="absolute -left-[7px] top-1 w-3 h-3 rounded-full bg-accent2"></div>
+              <div class="flex flex-wrap items-baseline justify-between gap-x-4">
+                <h3 class="font-semibold">Intern — Asymptote Games Sdn Bhd</h3>
+                <span class="font-mono text-xs text-ink/50">Dec 2014 – Apr 2015</span>
+              </div>
+              <p class="text-xs text-ink/50 mt-0.5">Selangor</p>
+              <ul class="text-sm text-ink/70 mt-2 space-y-1 list-disc list-inside">
+                <li>Assisted in game design, programming, and prototyping.</li>
+                <li>Developed gameplay features and fixed bugs.</li>
+                <li>Collaborated with the development team during testing and iteration.</li>
+              </ul>
+            </div>
+
+          </div>
+        </section>
+
+      </main>
+
+      <!-- Sidebar -->
+      <aside class="space-y-10">
+
+        <!-- Education -->
+        <section>
+          <h2 class="font-display text-xl font-semibold mb-3 flex items-center gap-2">
+            <span class="w-6 h-px bg-accent"></span> Education
+          </h2>
+          <div class="rounded-2xl border border-ink/10 bg-white/60 p-5 space-y-4">
+            <div>
+              <h3 class="font-semibold">Bachelor of Computer Science</h3>
+              <p class="text-sm text-ink/70">Multimedia University</p>
+              <p class="font-mono text-xs text-ink/50 mt-1">2013 – 2016 · Majors: Game Development</p>
+            </div>
+            <div class="pt-3 border-t border-ink/10">
+              <h3 class="font-semibold">SMK Kepong Baru</h3>
+              <p class="font-mono text-xs text-ink/50 mt-1">2007 – 2011</p>
+            </div>
+          </div>
+        </section>
+
+        <!-- Skills -->
+        <section>
+          <h2 class="font-display text-xl font-semibold mb-3 flex items-center gap-2">
+            <span class="w-6 h-px bg-accent"></span> Skills
+          </h2>
+          <div class="space-y-4">
+            <div>
+              <p class="text-xs font-mono uppercase text-ink/50 mb-2">Programming Languages</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">C#</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">SQL</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">HTML</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">JavaScript</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">CSS</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Java</span>
+              </div>
+            </div>
+            <div>
+              <p class="text-xs font-mono uppercase text-ink/50 mb-2">Development Frameworks</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Flutter</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Angular</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">ASP.NET</span>
+              </div>
+            </div>
+            <div>
+              <p class="text-xs font-mono uppercase text-ink/50 mb-2">Tools</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Visual Studio / VS Code</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Android Studio</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">MySQL Workbench</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">JIRA / Trello</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">SourceTree</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Adobe XD</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Sublime Text</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Docker</span>
+              </div>
+            </div>
+            <div>
+              <p class="text-xs font-mono uppercase text-ink/50 mb-2">Also</p>
+              <div class="flex flex-wrap gap-2">
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Problem Solving</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Git / Version Control</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">API Design</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">UI/UX Communication</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Documentation</span>
+                <span class="px-2.5 py-1 rounded-lg bg-ink/5 text-xs font-medium">Time Management</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Languages -->
+        <section>
+          <h2 class="font-display text-xl font-semibold mb-3 flex items-center gap-2">
+            <span class="w-6 h-px bg-accent"></span> Languages
+          </h2>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-3 py-1 rounded-full bg-ink/5 text-xs font-mono">English</span>
+            <span class="px-3 py-1 rounded-full bg-ink/5 text-xs font-mono">Chinese</span>
+            <span class="px-3 py-1 rounded-full bg-ink/5 text-xs font-mono">Malay</span>
+            <span class="px-3 py-1 rounded-full bg-ink/5 text-xs font-mono">Cantonese</span>
+          </div>
+        </section>
+
+      </aside>
+    </div>
+
+    <footer class="mt-14 pt-6 border-t border-ink/10 text-center text-xs font-mono text-ink/40">
+      Built with HTML &amp; Tailwind CSS
+    </footer>
+
+  </div>
+</body>
+</html>
