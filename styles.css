@@ -813,6 +813,10 @@ footer .btn:hover {
   gap: 8px;
 }
 
+.bot span {
+  color: #9AA1AD;
+}
+
 .bot a:hover {
   color: #fff;
 }
