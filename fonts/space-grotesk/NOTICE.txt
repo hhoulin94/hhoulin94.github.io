@@ -1,0 +1,13 @@
+Space Grotesk 2.0.0
+Copyright 2020 The Space Grotesk Project Authors (https://github.com/floriankarsten/space-grotesk)
+Source: https://github.com/floriankarsten/space-grotesk/releases/tag/2.0.0
+License: SIL Open Font License 1.1 (see OFL.txt)
+
+SpaceGrotesk-Medium.woff2 (weight 500) and SpaceGrotesk-Bold.woff2 (weight 700)
+are the official static webfonts, subset to Latin, Latin-1, general punctuation
+(U+2010-U+2027) and arrows (U+2190-U+21FF) for this site.
+
+SpaceGrotesk-SemiBold.woff2 (weight 600) is a static instance of the official
+variable font SpaceGrotesk[wght].ttf at wght=600. The 2.0.0 release does not
+publish a separate SemiBold file. It is subset the same way. The upstream
+license does not declare a Reserved Font Name.
