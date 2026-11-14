@@ -1,0 +1,8 @@
+JetBrains Mono 2.304
+Copyright 2020 The JetBrains Mono Project Authors (https://github.com/JetBrains/JetBrainsMono)
+Source: https://github.com/JetBrains/JetBrainsMono/releases/tag/v2.304
+License: SIL Open Font License 1.1 (see OFL.txt)
+
+JetBrainsMono-Regular.woff2 (400) and JetBrainsMono-Medium.woff2 (500) are the
+official webfonts, subset to Latin, Latin-1, general punctuation (U+2010-U+2027)
+and arrows (U+2190-U+21FF) for this site.
