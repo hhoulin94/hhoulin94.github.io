@@ -817,6 +817,10 @@ footer .btn:hover {
   color: #9AA1AD;
 }
 
+.bot a {
+  color: #9AA1AD;
+}
+
 .bot a:hover {
   color: #fff;
 }
