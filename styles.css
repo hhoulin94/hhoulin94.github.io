@@ -382,6 +382,7 @@ footer h2 .acc {
   font: 400 11px/1.2 var(--sans);
   color: #E5E7EB;
   min-width: 0;
+  white-space: nowrap;
 }
 
 .app .label {
@@ -399,21 +400,9 @@ footer h2 .acc {
   font: 700 18px/1 var(--display);
 }
 
-.ai.plain {
-  background: #F4F5F7;
-  color: #0F1115;
-}
-
-.ai.sf {
-  background: #111;
-  color: var(--acc);
-  border: 1px solid #333;
-}
-
-.app.soon .ai {
-  background: rgba(255, 255, 255, 0.08);
-  border: 1px dashed #4B5260;
-  color: #9AA1AD;
+img.ai {
+  display: block;
+  object-fit: cover;
 }
 
 .dock {
@@ -609,17 +598,12 @@ section {
   color: var(--acct);
 }
 
-.ini {
+.sf6ico {
   width: 48px;
   height: 48px;
-  border-radius: 12px;
-  display: grid;
-  place-items: center;
-  font-family: var(--display);
-  font-weight: 700;
-  font-size: 20px;
-  background: #111;
-  color: var(--acc);
+  border-radius: 50%;
+  object-fit: cover;
+  flex: none;
   box-shadow: 0 6px 14px -6px rgba(15, 17, 21, 0.35);
 }
 
