@@ -399,6 +399,11 @@ footer h2 .acc {
   font: 700 18px/1 var(--display);
 }
 
+img.ai {
+  display: block;
+  object-fit: cover;
+}
+
 .ai.plain {
   background: #F4F5F7;
   color: #0F1115;
