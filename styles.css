@@ -262,12 +262,10 @@ nav .btn {
 }
 
 .hero h1 {
-  font-size: 40px;
-  line-height: 1.15;
+  font-size: 64px;
   letter-spacing: -0.03em;
   margin: 20px 0;
   font-weight: 700;
-  text-wrap: balance;
 }
 
 .hero h1 .acc,
@@ -280,12 +278,6 @@ footer h2 .acc {
   font-size: 13px;
   letter-spacing: 0.02em;
   max-width: none;
-}
-
-.lede {
-  font-size: 20px;
-  color: var(--mut);
-  max-width: 620px;
 }
 
 .stack {
@@ -831,12 +823,7 @@ footer .btn:hover {
   }
 
   .hero h1 {
-    font-size: 28px;
-    line-height: 1.2;
-  }
-
-  .lede {
-    font-size: 17px;
+    font-size: 44px;
   }
 
   .pwrap {
