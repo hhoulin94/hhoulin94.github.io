@@ -280,12 +280,6 @@ footer h2 .acc {
   max-width: none;
 }
 
-.lede {
-  font-size: 20px;
-  color: var(--mut);
-  max-width: 620px;
-}
-
 .stack {
   display: flex;
   gap: 8px;
@@ -598,15 +592,6 @@ section {
   color: var(--acct);
 }
 
-.sf6ico {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-  object-fit: cover;
-  flex: none;
-  box-shadow: 0 6px 14px -6px rgba(15, 17, 21, 0.35);
-}
-
 .food {
   width: 48px;
   height: 48px;
@@ -839,10 +824,6 @@ footer .btn:hover {
 
   .hero h1 {
     font-size: 44px;
-  }
-
-  .lede {
-    font-size: 17px;
   }
 
   .pwrap {
